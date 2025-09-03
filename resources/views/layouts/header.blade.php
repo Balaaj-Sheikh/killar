@@ -106,15 +106,15 @@
                             <a href="#" class="btn btn-light me-3 py-4 px-5">
                                 Get Started <i class="bi bi-arrow-right-circle ms-1"></i>
                             </a>
-                            <a href="#" class="btn btn-dark py-4 px-5" style="background-color:#02121F">
+                            <a href="#" class="btn btn-dark See-Live-Demo-btn py-4 px-5">
                                 See Live Demo <i class="bi bi-play-circle ms-1"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-center mt-4 mt-lg-0 order-2 order-lg-1">
+                <div class="col-lg-6 text-center mt-4 Hero-Image mt-lg-0 order-2 order-lg-1">
                     <img src="{{ asset('images/digital-marketing.png') }}" alt="Hero Image"
-                        class="img-fluid mx-auto d-block" style="max-width:100%; height:auto;">
+                        class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div>

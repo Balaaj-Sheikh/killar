@@ -90,13 +90,9 @@
         <div class="row mt-5">
             <div
                 class="col-12 col-md-12 d-flex flex-column flex-md-row justify-content-between align-items-center px-5 mb-2">
-
-                <!-- Left: Copyright -->
-                <div class="small fw-bold mb-3 mb-md-0 text-center text-md-start" style="color: #05264E">
+                <div class="small fw-bold mb-3 mb-md-0 text-center  Themezhub text-md-start">
                     © 2023 Killar Apps® Design by Themezhub.
                 </div>
-
-                <!-- Right: Stats -->
                 <div id="stats" class="d-flex flex-row flex-md-row gap-4 text-center">
                     <div>
                         <div class="fs-4 fw-bold counter" data-target="12000">0</div>
