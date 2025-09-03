@@ -1,0 +1,577 @@
+    body {
+        font-family: 'Inter', sans-serif;
+        /* overflow-x: hidden; */
+    }
+
+    nav {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        /* background-color: #A70A29 */
+    }
+
+    .hero-section {
+        background: #a70a29 url(../images/bg2.png) no-repeat center;
+        background-size: cover;
+        height: auto;
+        padding-top: 70px;
+    }
+
+    .hero-heading {
+        font-size: 60px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        opacity: 1;
+    }
+
+    .btn-dark {
+        background-color: #02121F;
+        border: none;
+    }
+
+    .btn-dark:hover {
+        background-color: #142d4c;
+    }
+
+    .hover-text-primary:hover {
+        color: var(--bs-primary) !important;
+    }
+
+    .border-0 {
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .navbar.scrolled {
+        background-color: #fff !important;
+        /* White background */
+        transition: background-color 0.9s ease-in-out;
+    }
+
+    .navbar.scrolled .nav-link,
+    .navbar.scrolled .navbar-brand,
+    .navbar.scrolled a .navbar.scrolled {
+        color: #000 !important;
+        /* Dark text */
+    }
+
+    .navbar.scrolled .btn1 {
+        color: #000000 !important;
+    }
+
+    .navbar.scrolled .btn {
+        color: #ffffff !important;
+        background-color: #041B2D !important;
+    }
+
+    .navbar.scrolled img.logo-light {
+        display: none;
+    }
+
+    .navbar.scrolled img.logo-dark {
+        display: inline-block;
+    }
+
+    .image-container {
+        position: relative;
+        border-radius: 20px;
+        /* padding: 20px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-container img.main-img {
+        width: 33rem;
+        border-radius: 20px;
+    }
+
+    .reviews h1 {
+        color: #05264E;
+    }
+
+    .second-review-last-star {
+        color: #797b7e;
+    }
+
+    .explore-heading-1 {
+        color: #05264E;
+        font-family: "Jost", sans-serif !important;
+        word-spacing: 2px;
+        line-height: 1.5;
+        /* letter-spacing: 1px; */
+    }
+
+    .overlay-img {
+        position: absolute;
+        width: 150px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .overlay1 {
+        bottom: 130px;
+        left: 70px;
+    }
+
+    .overlay2 {
+        bottom: 70px;
+        left: 90px;
+    }
+
+    .btn-Explore-Benefits {
+        background-color: #F6E6E9 !important;
+        padding: 10px 25px;
+        font-weight: 600;
+    }
+
+    .btn-Explore-Benefits:hover {
+        background-color: #A70A29 !important;
+        color: white !important;
+    }
+
+    .bg-User-Analytics {
+        background-color: #F6E6E9 !important;
+    }
+
+    .checkmark {
+        color: gray !important;
+    }
+
+    .Explore-2 h2 {
+        color: #05264E;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .brand-image-box {
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-image-box img.brand-main {
+        width: 33rem;
+        border-radius: 20px;
+    }
+
+    .brand-counter {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #05264E;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .Billion,
+    .Million {
+        color: #A70A29 !important;
+    }
+
+    .bg-easy-marketing {
+        background-color: #F6E6E9 !important;
+    }
+
+    .services {
+        background-color: #031d2e;
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .services a {
+        background-color: #A70A29;
+    }
+
+    .services a:hover {
+        background-color: #DB1C40;
+    }
+
+    .social-media-account {
+        width: 80px;
+        height: 70px;
+    }
+
+    .pricing-heading span {
+        background-color: #e8ece9;
+    }
+
+    .pricing-heading h2 {
+        font-family: 'Jost', sans-serif;
+        color: #031d2e;
+    }
+
+    .pricing-heading p {
+        font-family: 'Jost', sans-serif;
+    }
+
+    .free-box {
+        background-color: #F1F5F8;
+    }
+
+    .free-box span {
+        background-color: #F1F5F8;
+    }
+
+    .free-box-features {
+        background-color: white;
+    }
+
+    .free-box-features span {
+        background-color: white;
+    }
+
+    .free-box-features button {
+        background-color: #041B2D;
+    }
+
+    .Pro-Version {
+        background-color: #A70A29;
+    }
+
+    .Pro-Version-features {
+        background-color: white;
+    }
+
+    .Pro-Version-features span {
+        background-color: white !important;
+    }
+
+    .Pro-Version-features button {
+        background-color: #A70A29;
+    }
+
+    .Pro-Version span {
+        background-color: #A70A29;
+    }
+
+    .Business-box {
+        background-color: #F1F5F8;
+    }
+
+    .Business-box span {
+        background-color: #F1F5F8;
+    }
+
+    .Business-box-features {
+        background-color: white;
+    }
+
+    .Business-box-features span {
+        background-color: white;
+    }
+
+    .Business-box-features button {
+        background-color: #041B2D;
+    }
+
+    .right-arrow {
+        color: #81898F;
+    }
+
+    .testimonials {
+        font-family: Arial, sans-serif;
+        background: #f8fafc;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .testimonials span {
+        background-color: #e8ece9;
+    }
+
+    .testimonials h2 {
+        font-family: 'Jost', sans-serif;
+        color: #031d2e;
+    }
+
+    .testimonials p {
+        font-family: Jost, sans-serif;
+    }
+
+    .testimonial-container {
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .testimonial-header {
+        color: #0d2b5a;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .testimonial-sub {
+        font-size: 14px;
+        color: gray;
+        margin-bottom: 20px;
+    }
+
+    .testimonial {
+        display: none;
+        animation: fade 0.6s ease-in-out;
+    }
+
+    .testimonial.active {
+        display: block;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .testimonial img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .name {
+        font-weight: bold;
+        font-size: 18px;
+        color: #0d2b5a;
+    }
+
+    .role {
+        font-size: 14px;
+        color: gray;
+        margin-bottom: 10px;
+    }
+
+    .stars {
+        color: orange;
+        margin: 5px 0 15px 0;
+    }
+
+    .review {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .dots {
+        margin-top: 20px;
+    }
+
+    .dot {
+        height: 12px;
+        width: 12px;
+        margin: 0 5px;
+        display: inline-block;
+        background: #bbb;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .dot.active {
+        background: #0d2b5a;
+    }
+
+    .partners h5 {
+        line-height: 2;
+        font-family: Jost, sans-serif;
+    }
+
+    .Latest-Updates span {
+        background-color: #e7f6ee;
+    }
+
+    .Latest-Updates h2 {
+        font-family: 'Jost', sans-serif;
+        color: #031d2e;
+    }
+
+    .Latest-Updates p {
+        font-family: 'Jost', sans-serif;
+    }
+
+    .post-card {
+        display: flex;
+        gap: 24px;
+        background: #fff;
+        border: 1px solid #e6edf5;
+        border-radius: 12px;
+        padding: 18px;
+    }
+
+    .post-thumb {
+        flex: 0 0 42%;
+        border-radius: 12px;
+        overflow: hidden;
+        max-height: 220px;
+    }
+
+    .post-thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .post-body {
+        flex: 1
+    }
+
+    .post-badge {
+        font-size: 12px;
+        padding: 6px 10px;
+        border-radius: 6px;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
+    .post-title {
+        font-family: "Jost", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 600;
+        line-height: 1.15;
+        color: #082c52;
+        font-size: 28px;
+        margin: 6px 0 6px;
+    }
+
+    .post-date {
+        color: #8ea0b2;
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .post-excerpt {
+        color: #5e6e7f;
+        margin: 0 0 8px;
+    }
+
+    .post-link {
+        color: #d62a4c;
+        /* red link */
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .post-link .arrow {
+        margin-left: 6px
+    }
+
+    /* Badge colors (match screenshot) */
+    .badge-resources {
+        background: #e7f6ee;
+        color: #2f9d6a !important;
+    }
+
+    .badge-wordpress {
+        background: #ffe9d6;
+        color: #d38726 !important;
+    }
+
+    .badge-payment {
+        background: #ffe3ec;
+        color: #c3416a !important;
+    }
+
+    .badge-software {
+        background: #e8f2ff;
+        color: #2c6cb0 !important;
+    }
+
+    /* Responsive: stack image on top on small screens */
+    @media (max-width: 991.98px) {
+        .post-card {
+            flex-direction: column
+        }
+
+        .post-thumb {
+            flex: 0 0 auto;
+            max-height: 260px
+        }
+    }
+
+    .subscribe-section {
+        background-color: #A70A29;
+        overflow: hidden;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+    }
+
+    .email-box {
+        padding-right: 130px;
+    }
+
+    .pe-40px {
+        margin-right: 400px !important;
+    }
+
+    .subscribe-section img {
+        z-index: 0;
+    }
+
+    .newslt-heading {
+        z-index: 1;
+    }
+
+    .newslt-heading h2 {
+        font-family: 'Jost', sans-serif;
+    }
+
+    .newslt-heading p {
+        font-family: 'Jost', sans-serif;
+    }
+
+    .logos a {
+        width: 40px;
+        height: 40px;
+        background-color: #edf3f7;
+    }
+
+    .Navigation h6 {
+        color: #003A75;
+    }
+
+    .Navigation ul {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .Resources h6 {
+        color: #003A75;
+    }
+
+    .Resources ul {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .Company h6 {
+        color: #003A75;
+    }
+
+    .Company ul {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .Download-apps h6 {
+        color: #003A75;
+    }
+
+    .app-img {
+        height: 60px;
+        width: 260px;
+        object-fit: contain;
+    }
